@@ -34,3 +34,28 @@
 .beneficios img {
     border-radius: 0.6rem;
 }
+
+.tecnologia {
+    position: relative;
+    background: url("/img/blockchain-icon.png") no-repeat center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+  
+.tecnologia h3 {
+    font-size: 3em;
+    margin-bottom: -20px;
+}
+  
+.tecnologia p {
+    font-size: 1.5em;
+}
+  
+.tecnologia h3 {
+    text-shadow: 2px 1px 2px #333;
+}
