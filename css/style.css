@@ -1,0 +1,29 @@
+:root {
+    --cor-primaria: #228b5a;
+    --cor-secundaria: #35bb7c;
+    --line-height: 1.7rem;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serf;
+  }
+  
+  ul li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+  }
+  
+  a:hover {
+    color: var(--cor-secundaria);
+  }
+  
