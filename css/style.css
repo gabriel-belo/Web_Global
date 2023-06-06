@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+:root {
+  --cor-primaria: #228b5a;
+  --cor-secundaria: #35bb7c;
+  --line-height: 1.7rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serf;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-primaria);
+}
+
+a:hover {
+  color: var(--cor-secundaria);
+}
+
+nav {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  box-shadow: 2px 3px 2px #f1f1f1;
+}
+
+.logo {
+  max-width: 8%;
+  height: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  background-color: #020202;
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin: 6px auto;
+}
+
+section {
+  padding-bottom: 8rem;
+  scroll-margin-top: 7rem;
+}
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 1100px;
+  margin: 2rem auto -6rem;
+}
+
+.intro-text h1 span{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.sobre p {
+  text-align: justify;
+  line-height: var(--line-height);
+  padding-top: 1rem;
+}
+
+.qualidade {
+  color: var(--cor-primaria);
+}
+
+.saudavel {
+  color: var(--cor-secundaria);
+}
+
+.sobre img {
+  max-width: 30rem;
+  border-top: 40px groove var(--cor-primaria);
+  border-bottom: 40px groove var(--cor-primaria);
+  border-right: 28px solid var(--cor-secundaria);
+  border-left: 28px solid var(--cor-secundaria);
+}
+
+.impacto {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 1100px;
+  margin: 2rem auto -6rem;
+  padding-bottom: 8rem;
+}
+
+.impacto p {
+  text-align: justify;
+  line-height: var(--line-height);
+  padding-top: 2rem;
+}
+
+.impacto img {
+  max-width: 30rem;
+  border-top: 40px groove var(--cor-primaria);
+  border-bottom: 40px groove var(--cor-primaria);
+  border-right: 28px solid var(--cor-secundaria);
+  border-left: 28px solid var(--cor-secundaria);
+}
+
+.tecnologia {
+  position: relative;
+  background: url("/img/blockchain-icon.png") no-repeat center;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.tecnologia h3 {
+  font-size: 3em;
+  margin-bottom: -20px;
+}
+
+.tecnologia p {
+  font-size: 1.5em;
+}
+
+.tecnologia h3 {
+  text-shadow: 2px 1px 2px #333;
+}
+
+.tecnologia p {
+  text-shadow: 2px 1px 2px #333;
+  font-size: 1.8rem;
+}
+
+.objetivos {
+  margin-top: 2rem;
+  padding: 5rem 0;
+}
+
+.objetivos {
+  margin: 2rem auto;
+  max-width: 1100px;
+}
+
+.objetivos img {
+  border-radius: 0.6rem;
+}
+
+.beneficios {
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.beneficios {
+  margin: 2rem auto;
+  max-width: 1100px;
+}
+
+.beneficios img {
+  border-radius: 0.6rem;
+}
+
+.utilizacao {
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+.utilizacao {
+  margin: 2rem auto;
+  max-width: 1100px;
+}
+
+.utilizacao img {
+  border-radius: 0.6rem;
+}
+
+.utilizacao p {
+  text-align: justify;
+}
+
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 1rem;
+}
+
+.items img {
+  padding-top: 2rem;
+  max-width: 11rem;
+}
+
+.primeira-linha {
+  color: var(--cor-primaria);
+  text-align: center;
+}
+
+.segunda-linha {
+  color: var(--cor-secundaria);
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+footer {
+    border-top: 1px solid #f1f1f1;
+    box-shadow: 0px -2px 3px #f1f1f1;
+    text-align: center;
+    padding: 2rem;
+  }
