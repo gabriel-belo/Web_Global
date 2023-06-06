@@ -355,3 +355,12 @@ body.dark footer {
 .checkbox:checked + .label .switcher {
   transform: translateX(24px);
 }
+
+.carousel img{
+  width: 800px;
+  height: 400px;
+}
+
+.carousel img:not(:first-child) {
+  display: none;
+}
