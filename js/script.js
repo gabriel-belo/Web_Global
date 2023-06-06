@@ -17,3 +17,8 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
         event.preventDefault();
       }
 });
+
+function login() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+  
