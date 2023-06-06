@@ -7,3 +7,15 @@ window.onload = function() {
 };
 
 
+document.getElementById("myForm").addEventListener("submit", function(event) {
+  var name = document.getElementById("name").value;
+  var phone = document.getElementById("phone").value;
+  var email = document.getElementById("email").value;
+  var message = document.getElementById("message").value;
+
+  if (!name || !phone || !email || !message) {
+    alert("Preencha todos os campos!");
+    event.preventDefault();
+  }
+});
+
