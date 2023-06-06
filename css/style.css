@@ -26,3 +26,7 @@ a {
 a:hover {
     color: var(--cor-secundaria);
 }
+
+body.dark {
+    background-color: #232b31ee;
+  }
