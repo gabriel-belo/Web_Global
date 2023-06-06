@@ -34,4 +34,12 @@ function login() {
   var carouselImages = document.querySelector(".carousel").getElementsByTagName("img");
   
   
+  function showNextImage() {
+    carouselImages[carouselIndex].style.display = "none";
+    carouselIndex = (carouselIndex + 1) % carouselImages.length;
+    carouselImages[carouselIndex].style.display = "block";
+  }
+  
+  setInterval(showNextImage, 3000);
+  
   
