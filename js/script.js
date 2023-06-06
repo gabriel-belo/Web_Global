@@ -42,4 +42,10 @@ function login() {
   
   setInterval(showNextImage, 3000);
   
-  
+  function DataHora() {
+    var data = new Date();
+    var tempo = document.getElementById("tempo");
+    tempo.textContent = data.toLocaleString();
+    setTimeout(DataHora, 1000);
+  }
+  DataHora();
