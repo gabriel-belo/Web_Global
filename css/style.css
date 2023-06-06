@@ -30,3 +30,24 @@ a:hover {
 body.dark {
     background-color: #232b31ee;
   }
+  body.dark .bar {
+    background-color: #fff;
+  }
+  
+  body.dark p {
+    color: #fff;
+  }
+  
+  body.dark h3 {
+    color: #fff;
+  }
+  
+  body.dark h1 {
+    color: #fff;
+  }
+  
+  body.dark nav {
+    background-color: #1e272e;
+    box-shadow: 2px 3px 2px #111010;
+  }
+  
